@@ -6,5 +6,4 @@ jobs:
      steps:
        - uses: actions/checkout@v6.0.2
        - name: Run Tests
-         run: echo "Testing App..."
-         run: cat "cloud"
+         run: cat cloud
