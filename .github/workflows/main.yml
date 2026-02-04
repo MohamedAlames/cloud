@@ -1,0 +1,10 @@
+name: cloud
+on: [push]
+jobs:
+  build-and-test:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v6.0.2
+       - name: Run Tests
+         run: echo "Testing App..."
+         run: cat "cloud"
